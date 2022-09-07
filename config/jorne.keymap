@@ -25,20 +25,14 @@
             //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
- &kp LWIN  &kp GRAVE      &kp Q    &kp P    &kp Y   &kp C      &kp B           &kp V      &kp M          &kp U     &kp Z   &kp L       &kp LBKT  &mt RWIN RBKT
-           &kp LCTRL      &kp A    &kp N    &kp I   &kp S      &kp F           &kp D      &kp T          &kp H     &kp O   &kp R  &mt RCTRL SQT
-            &kp LALT  &kp COMMA  &kp DOT    &kp J   &kp G  &kp SLASH   &kp SEMICOLON      &kp W          &kp K  &kp APOS   &kp X       &kp BSLH
-                                          &kp TAB   &kp E  &lt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
+ &kp LWIN  &kp GRAVE      &kp Q    &kp P    &kp Y   &kp C      &kp B           &kp V      &kp M      &kp U     &kp Z   &kp L       &kp LBKT  &mt RWIN RBKT
+           &kp LCTRL      &kp A    &kp N    &kp I   &kp S      &kp F           &kp D      &kp T      &kp H     &kp O   &kp R  &mt RCTRL SQT
+            &kp LALT  &kp COMMA  &kp DOT    &kp J   &kp G  &kp SLASH   &kp SEMICOLON      &kp W      &kp K  &kp APOS   &kp X       &kp BSLH
+                                          &kp TAB   &kp E  &lt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp QMARK
             >;
         };
 
         raise_layer {
-            // -----------------------------------------------------------------------------------------
-            // | RST | BLDR |     |     |     |     |     |   |     |     |     |     |     | BLDR | RST |
-            //       | BTCLR| BT0 | BT1 | BT2 | BT3 | BT4 |   | BT4 | BT3 | BT2 | BT1 | BT0 | BTCLR|
-            //       |      |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                          |     |     |     |   |     |     |     |
-
             bindings = <
  &trans       &kp KP_NUM  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS         &kp CAPS  &trans
          &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
