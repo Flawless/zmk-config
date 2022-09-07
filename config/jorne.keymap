@@ -28,22 +28,7 @@
  &kp LWIN  &kp GRAVE      &kp Q    &kp P    &kp Y   &kp C      &kp B           &kp V      &kp M          &kp U     &kp Z   &kp L       &kp LBKT  &mt RWIN RBKT
            &kp LCTRL      &kp A    &kp N    &kp I   &kp S      &kp F           &kp D      &kp T          &kp H     &kp O   &kp R  &mt RCTRL SQT
             &kp LALT  &kp COMMA  &kp DOT    &kp J   &kp G  &kp SLASH   &kp SEMICOLON      &kp W          &kp K  &kp APOS   &kp X       &kp BSLH
-                                          &kp TAB   &kp E  &lt 2 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
-            >;
-        };
-
-        lower_layer {
-            // -----------------------------------------------------------------------------------------
-            // |     |  _  |  F1 |  F2 |  F3 |  F4 |  F5 |   |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |
-            //       |  +  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  -  |
-            //       |  =  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |     |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
- &trans       &kp UNDER    &kp F1  &kp F2     &kp F3    &kp F4     &kp F5     &kp F6    &kp F7     &kp F8    &kp F9   &kp F10          &kp F11  &mt RGUI F12
-         &mt LCTRL PLUS  &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-         &mt LALT EQUAL    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5     &kp N6    &kp N7     &kp N8    &kp N9    &kp N0           &trans
-                                           &lt 3 TAB    &trans     &trans     &trans    &trans  &lt 3 DEL
+                                          &kp TAB   &kp E  &lt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
             >;
         };
 
@@ -58,7 +43,7 @@
  &trans       &kp KP_NUM  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS         &kp CAPS  &trans
          &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
                   &trans      &kp ASTRK    &kp UNDER  &kp EXCL  &kp DOLLAR  &kp BACKSLASH        &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RET           &trans
-                                                        &trans      &trans      &lt 3 ESC           &lt 3 ENTER        &trans       &kp DEL
+                                                        &trans      &trans         &trans           &lt 2 ENTER        &trans       &kp DEL
             >;
         };
 
@@ -70,10 +55,10 @@
             //                          |     |     |     |   |     |     |     |
 
             bindings = <
- &reset  &bootloader         &none         &none         &none         &none         &none      &kp RIGHT_BRACKET         &none         &none         &none         &none  &bootloader  &reset
-          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp RIGHT_PARENTHESIS  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR
-               &none         &none         &none         &none         &none  &bt BT_SEL 4        &kp RIGHT_BRACE  &bt BT_SEL 4         &none         &none         &none        &none
-                                                        &trans         &none        &trans                 &trans         &none        &trans
+ &reset  &bootloader         &none         &none         &none         &none         &none      &kp RIGHT_BRACKET  &kp F7  &kp F8  &kp F9  &kp F10  &bootloader  &reset
+          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp RIGHT_PARENTHESIS  &kp F4  &kp F5  &kp F6  &kp F11   &bt BT_CLR
+               &none         &none         &none         &none         &none  &bt BT_SEL 4        &kp RIGHT_BRACE  &kp F1  &kp F2  &kp F3  &kp F12        &none
+                                                        &trans         &none        &trans                 &trans   &none  &trans
             >;
         };
 
