@@ -43,7 +43,7 @@
  &kp LWIN  &kp GRAVE      &kp Q    &kp P    &kp Y               &kp C      &kp B           &kp V      &kp M          &kp U     &kp Z   &kp L       &kp LBKT  &mt RWIN RBKT
            &kp LCTRL      &kp A    &kp N    &kp I               &kp S      &kp F           &kp D      &kp T          &kp H     &kp O   &kp R  &mt RCTRL SQT
             &kp LALT  &kp COMMA  &kp DOT    &kp J               &kp G  &kp SLASH   &kp SEMICOLON      &kp W          &kp K  &kp APOS   &kp X       &kp BSLH
-                                          &kp TAB  &mt LEFT_CONTROL E  &lt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
+                                          &kp TAB  &mt LEFT_CONTROL E  &mt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
             >;
         };
 
