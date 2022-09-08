@@ -47,10 +47,10 @@
             //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
- &kp TAB  &kp GRAVE      &kp Q    &kp P              &kp Y               &kp C      &kp B           &kp V      &kp M                     &kp U     &kp Z   &kp L  &kp BACKSPACE  &kp DEL
-          &kp LCTRL      &kp A    &kp N              &kp I               &kp S      &kp F           &kp D      &kp T                     &kp H     &kp O   &kp R  &mt RCTRL SQT
-           &kp LALT  &kp COMMA  &kp DOT              &kp J               &kp G  &kp SLASH   &kp SEMICOLON      &kp W                     &kp K  &kp APOS   &kp X       &kp BSLH
-                                         &mt LEFT_META ESC  &mt LEFT_CONTROL E      &mo 1  &mt LSHIFT RET  &kp SPACE  &mt RIGHT_META BACKSPACE
+ &kp TAB  &kp GRAVE      &kp Q    &kp P              &kp Y               &kp C      &kp B           &kp V      &kp M           &kp U     &kp Z   &kp L  &kp BACKSPACE  &kp DEL
+          &kp LCTRL      &kp A    &kp N              &kp I               &kp S      &kp F           &kp D      &kp T           &kp H     &kp O   &kp R  &mt RCTRL SQT
+           &kp LALT  &kp COMMA  &kp DOT              &kp J               &kp G  &kp SLASH   &kp SEMICOLON      &kp W           &kp K  &kp APOS   &kp X       &kp BSLH
+                                         &mt LEFT_META ESC  &mt LEFT_CONTROL E      &mo 1  &mt LSHIFT RET  &kp SPACE  &kp RIGHT_META
             >;
         };
 
