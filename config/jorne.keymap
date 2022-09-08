@@ -26,6 +26,7 @@
         mitosis_combo {
             bindings = <&tog 0>;
             key-positions = <43 38>;
+            layers = <5>;
         };
 
         adj_layer_combo {
@@ -46,19 +47,19 @@
             //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
- &kp LWIN  &kp GRAVE      &kp Q    &kp P    &kp Y               &kp C      &kp B           &kp V      &kp M          &kp U     &kp Z   &kp L       &kp LBKT  &mt RWIN RBKT
-           &kp LCTRL      &kp A    &kp N    &kp I               &kp S      &kp F           &kp D      &kp T          &kp H     &kp O   &kp R  &mt RCTRL SQT
-            &kp LALT  &kp COMMA  &kp DOT    &kp J               &kp G  &kp SLASH   &kp SEMICOLON      &kp W          &kp K  &kp APOS   &kp X       &kp BSLH
-                                          &kp TAB  &mt LEFT_CONTROL E  &lt 1 ESC  &mt LSHIFT RET  &kp SPACE  &kp BACKSPACE
+ &kp TAB  &kp GRAVE      &kp Q    &kp P              &kp Y               &kp C      &kp B           &kp V                &kp M                     &kp U     &kp Z   &kp L  &kp BACKSPACE  &kp DEL
+          &kp LCTRL      &kp A    &kp N              &kp I               &kp S      &kp F           &kp D                &kp T                     &kp H     &kp O   &kp R  &mt RCTRL SQT
+           &kp LALT  &kp COMMA  &kp DOT              &kp J               &kp G  &kp SLASH   &kp SEMICOLON                &kp W                     &kp K  &kp APOS   &kp X       &kp BSLH
+                                         &mt LEFT_META ESC  &mt LEFT_CONTROL E      &mo 1  &mt LSHIFT RET  &mt RIGHT_ALT SPACE  &mt RIGHT_META BACKSPACE
             >;
         };
 
         raise_layer {
             bindings = <
- &trans       &kp KP_NUM  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS        &kp PG_UP  &kp PRINTSCREEN
-         &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
-                  &trans      &kp ASTRK    &kp UNDER  &kp EXCL  &kp DOLLAR  &kp BACKSLASH        &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RET        &kp PG_DN
-                                                        &trans      &trans         &trans           &lt 2 ENTER  &kp NUMBER_0       &kp DEL
+ &kp K_PLAY_PAUSE     &kp K_VOL_UP  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS        &kp PG_UP  &kp PRINTSCREEN
+                   &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
+                      &kp K_VOL_DN      &kp ASTRK    &kp UNDER  &kp EXCL  &kp DOLLAR  &kp BACKSLASH        &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &trans        &kp PG_DN
+                                                                  &trans      &trans         &trans           &lt 2 ENTER  &kp NUMBER_0       &kp DEL
             >;
         };
 
