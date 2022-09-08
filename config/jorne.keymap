@@ -52,7 +52,7 @@
  &trans       &kp KP_NUM  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS         &kp CAPS  &trans
          &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
                   &trans      &kp ASTRK    &kp UNDER  &kp EXCL  &kp DOLLAR  &kp BACKSLASH        &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp RET           &trans
-                                                        &trans      &trans         &trans           &lt 2 ENTER        &trans       &kp DEL
+                                                        &trans      &trans         &trans           &lt 2 ENTER  &kp NUMBER_0       &kp DEL
             >;
         };
 
@@ -65,7 +65,7 @@
             >;
         };
 
-        qwerty {
+        qw_layer {
             bindings = <
  &kp LEFT_META     &kp GRAVE   &kp Q   &kp W    &kp E   &kp R      &kp T               &kp Y      &kp U          &kp I    &kp O      &kp P  &kp LEFT_BRACKET  &mt RIGHT_META RIGHT_BRACKET
                    &kp LCTRL   &kp A   &kp S    &kp D   &kp F      &kp G               &kp H      &kp J          &kp K    &kp L   &kp SEMI         &kp RCTRL
@@ -74,7 +74,16 @@
             >;
         };
 
-        Layer__5 {
+        qw_raise_layer {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                 &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        qw_lower_layer {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
