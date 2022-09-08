@@ -59,7 +59,7 @@
  &kp K_PLAY_PAUSE     &kp K_VOL_UP  &kp AMPERSAND  &kp PERCENT    &kp UP   &kp CARET       &kp PIPE      &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS        &kp PG_UP  &kp PRINTSCREEN
                    &mt LCTRL EQUAL         &kp AT     &kp LEFT  &kp DOWN   &kp RIGHT       &kp HASH  &kp LEFT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp PLUS  &mt RCTRL K_APP
                       &kp K_VOL_DN      &kp ASTRK    &kp UNDER  &kp EXCL  &kp DOLLAR  &kp BACKSLASH        &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &trans        &kp PG_DN
-                                                                  &trans      &trans         &trans           &lt 2 ENTER  &kp NUMBER_0       &kp DEL
+                                                                  &trans      &trans         &trans           &lt 2 ENTER  &kp NUMBER_0        &trans
             >;
         };
 
